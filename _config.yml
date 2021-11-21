@@ -12,7 +12,7 @@
 
 # theme                  : "minimal-mistakes-jekyll"
 # remote_theme           : "mmistakes/minimal-mistakes"
-minimal_mistakes_skin    : "dark" # "default", "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
+minimal_mistakes_skin    : "default" # "default", "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
 
 # Site Settings
 locale                   : "en-US"
@@ -20,7 +20,7 @@ title                    : "공부기록"
 title_separator          : "-"
 subtitle                 : # site tagline that appears below site title in masthead
 name                     : "Tlswns"
-description              : "잊어버리지 않으려면 공부한 것을 기록하자 블로그"
+description              : "잊지 않으려면 공부한 것을 기록하자"
 url                      : "https://othertkfka.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
@@ -104,7 +104,7 @@ analytics:
 author:
   name             : "Tlswns"
   avatar           : "/assets/images/table.jpg"
-  bio              : "잊어버리지 않으려면 공부한 것을 기록하자 블로그"
+  bio              : "잊지 않으려면 공부한 것을 기록하자"
   location         : "South Korea"
   email            :
   links:
@@ -285,6 +285,7 @@ defaults:
       layout: single
       author_profile: true
       read_time: true
+      show_date: true
       comments: # true
       share: true
       related: true
@@ -296,6 +297,7 @@ defaults:
       layout: single
       author_profile: true
       read_time: false
+      show_date: true
       comments: false
       share: true
       related: false
